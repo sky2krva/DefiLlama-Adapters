@@ -4,6 +4,7 @@ const { sumTokensExport } = require('../helper/unwrapLPs')
 const KRAV = '0xbe3111856e4aca828593274ea6872f27968c8dd6'
 const config = {
   base: { factory: '0xFfD88F38025e02f9d2eB7F0875060F6B4a20980a', fromBlock: 2300044, KRAV: '0xbe3111856e4aca828593274ea6872f27968c8dd6', kravPool: '0x3e558c2378aa7d405b2ed67f510d390bcdbf4d96' },
+  ethereum: { factory: '0xB86eE91672f9bC416De975a6DE06dCFF6bcE9677', fromBlock: 18040179 }
 }
 
 Object.keys(config).forEach(chain => {
