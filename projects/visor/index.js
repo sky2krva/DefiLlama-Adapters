@@ -61,6 +61,15 @@ const HYPE_REGISTRY = {
   mantle: [
     "0x683292172E2175bd08e3927a5e72FC301b161300", // FusionX
   ],
+  rollux: [
+    "0x683292172E2175bd08e3927a5e72FC301b161300", // PegaSys
+  ],
+  linea: [
+    "0xc27ddd78fc49875fe6f844b72bbf31dfbb099881", // Lynex
+  ],
+  base: [
+    "0x1E86A593E55215957C4755f1BE19a229AF3286f6", // SynthSwap
+  ],
 };
 
 /* List of bad addresses added to registries that need to be excluded manually */
@@ -177,6 +186,15 @@ module.exports = {
     tvl: tvlWrapper,
   },
   mantle: {
+    tvl: tvlWrapper,
+  },
+  rollux: {
+    tvl: tvlWrapper,
+  },
+  linea: {
+    tvl: tvlWrapper,
+  },
+  base: {
     tvl: tvlWrapper,
   },
 };
