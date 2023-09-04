@@ -19,7 +19,7 @@ Object.keys(config).forEach(chain => {
         onlyArgs: true,
         fromBlock,
       })
-      return api.sumTokens({ tokensAndOwners: logs.map(i => [i.token, i.pool]), blacklistedTokens: [] })
+      return api.sumTokens({ tokensAndOwners: logs.map(i => [i.token, i.pool]), blacklistedTokens: [KRAV] })
     }
   }
   if (kravPool)
