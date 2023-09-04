@@ -22,7 +22,6 @@ Object.keys(config).forEach(chain => {
       return api.sumTokens({ tokensAndOwners: logs.map(i => [i.token, i.pool]), blacklistedTokens: KRAV?[KRAV]:[] })
     }
   }
-
   if (kravPool)
     module.exports[chain].staking = sumTokensExport({ owner: kravPool, tokens: [KRAV]})
 })
